@@ -1,0 +1,42 @@
+# Dependencies
+node_modules
+/coverage
+
+# Testing
+/test/reports
+
+# Production
+/build
+/dist
+
+# Miscellaneous
+.nyc_output
+*.log
+*.tgz
+*.gz
+pids
+*.pid
+*.seed
+.eslintcache
+.stylelintcache
+
+# Debugging
+.inspector
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.lcov
+lcov.info
+
+# Environment
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# IDEs and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
