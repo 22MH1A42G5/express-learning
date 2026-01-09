@@ -1,11 +1,10 @@
 {
-  "name": "basics",
+  "name": "tasks",
   "version": "1.0.0",
   "description": "",
-  "main": "Hello.js",
+  "main": "event-loop-demo.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node Hello.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
