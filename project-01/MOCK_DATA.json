@@ -7998,5 +7998,13 @@
         "email": "ccronrr@hostgator.com",
         "gender": "Female",
         "job_title": "Analog Circuit Design manager"
+    },
+    {
+        "id": 1001,
+        "first_name": "Kicha",
+        "last_name": "Sudeep",
+        "email": "kichasudeep@gmail.com",
+        "gender": "Male",
+        "job_title": "Actor"
     }
 ]
