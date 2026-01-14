@@ -14,6 +14,27 @@ app.get("/users" , (req , res) => {
 });
 app.use(express.json());
 
+
+// MiddleWare
+// The middleware usecases
+// Execute any code
+// Make changes to the request and the response objects
+// find the request-response cycle
+// call the next middle ware in the stack
+// The main thing used in the middle wares is we can write the for creating log.txt and add the logs
+
+app.use( (req , res , next) => {
+    console.log("Hello from middle ware1");
+    req.Username = "Sri Ram";
+    next();
+})
+app.use((req , res , next) => {
+    console.log("Hello from middleware2");
+    console.log(req.Username);
+    // res.end("Hey");
+    next();
+})
+
 // Rest API Routes
 app
 .route("/api/users/:id")
